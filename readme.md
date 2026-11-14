@@ -1,5 +1,7 @@
 # Ancient Structures Classification Pipeline
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24223317.svg)](https://doi.org/10.5281/zenodo.24223317)
+
 This repository contains two machine learning pipelines built to analyze and classify historical structures using the `ancient_structures_dataset.csv`. The scripts evaluate multiple ensemble classifiers, perform repeated stratified cross-validation, and generate detailed performance reports including feature importance and confusion matrices.
 
 ## Repository Contents
@@ -75,3 +77,5 @@ For every run, the script generates a folder containing:
 * `confusion_matrix.png`: Visual matrix of correct and confused predictions.
 * `feature_importance.csv` & `feature_importance.png`: Permutation importance of each feature.
 * `best_model.joblib`: The serialized final model pipeline ready for deployment.
+
+* 
